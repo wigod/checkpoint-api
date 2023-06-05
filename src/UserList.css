@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  table,th,td{
+    border: 2px solid #111;
+  }
+  table{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    font-size: 1.2rem;
+  }
+  th{
+    background-color: #2606f9;
+    color: #fff;
+  }
+  th,td{
+    padding-left: 1rem;
+  }
+  tr{
+    height: 2.2rem;
+    border: none;
+  }
+  tr:nth-child(even){
+    background-color: rgb(150, 249, 246);
+  }
